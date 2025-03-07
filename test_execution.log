@@ -1,0 +1,23 @@
+2025-03-01 13:50:41,054 - INFO - Inicio de la prueba con Selenium.
+2025-03-01 13:50:41,451 - INFO - Navegador Chrome iniciado.
+2025-03-01 13:50:41,830 - INFO - Navegador a la URL: https://www.ejemplo.com
+2025-03-01 13:50:41,839 - ERROR - Se produjo un error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="boton-login"]"}
+  (Session info: chrome=133.0.6943.141); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001025782d4 cxxbridge1$str$ptr + 2739836
+1   chromedriver                        0x0000000102570934 cxxbridge1$str$ptr + 2708700
+2   chromedriver                        0x00000001020d1f90 cxxbridge1$string$len + 93360
+3   chromedriver                        0x0000000102118de4 cxxbridge1$string$len + 383748
+4   chromedriver                        0x0000000102159e80 cxxbridge1$string$len + 650144
+5   chromedriver                        0x000000010210d060 cxxbridge1$string$len + 335232
+6   chromedriver                        0x0000000102540c38 cxxbridge1$str$ptr + 2512864
+7   chromedriver                        0x0000000102543f58 cxxbridge1$str$ptr + 2525952
+8   chromedriver                        0x0000000102526578 cxxbridge1$str$ptr + 2404640
+9   chromedriver                        0x0000000102544818 cxxbridge1$str$ptr + 2528192
+10  chromedriver                        0x0000000102516f2c cxxbridge1$str$ptr + 2341588
+11  chromedriver                        0x0000000102560a60 cxxbridge1$str$ptr + 2643464
+12  chromedriver                        0x0000000102560be8 cxxbridge1$str$ptr + 2643856
+13  chromedriver                        0x00000001025705a8 cxxbridge1$str$ptr + 2707792
+14  libsystem_pthread.dylib             0x00000001943c82e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001943c30fc thread_start + 8
+
